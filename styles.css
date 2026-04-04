@@ -1,105 +1,68 @@
-:root {
-    --primary-color: #007bff;
-    --secondary-color: #6c757d;
-    --success-color: #28a745;
-    --danger-color: #dc3545;
-    --warning-color: #ffc107;
-    --info-color: #17a2b8;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: var(--light-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #333;
 }
 
-nav {
-    background: var(--primary-color);
-    padding: 1em;
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+.btn:hover {
+  background: #45a049;
 }
 
-nav a:hover {
-    color: var(--secondary-color);
-}
-
-.hero {
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
-    animation: fadeIn 2s;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
+/* Sections */
 section {
-    padding: 40px 20px;
+  padding: 40px;
+  text-align: center;
 }
 
-.experience-item {
-    background: white;
-    border: 1px solid var(--secondary-color);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 20px 0;
-    transition: transform 0.2s;
-}
-
-.experience-item:hover {
-    transform: scale(1.02);
-}
-
-.skills {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-}
-
+/* Project Cards */
 .project-card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-    padding: 20px;
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.education {
-    background: linear-gradient(to right, var(--secondary-color), var(--success-color));
-    color: white;
-    padding: 40px;
+/* Social Links */
+.social-links a {
+  margin: 10px;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
 }
 
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
 }
 
-footer {
-    background: var(--dark-color);
-    color: white;
-    padding: 20px;
-    text-align: center;
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
-@media (max-width: 768px) {
-    .contact {
-        grid-template-columns: 1fr;
-    }
+form button {
+  padding: 10px;
+  background: #0077b5;
+  color: white;
+  border: none;
+  border-radius: 8px;
 }
