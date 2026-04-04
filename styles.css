@@ -1,0 +1,46 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.project h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.project p {
+  font-size: 1em;
+  color: #666666;
+}
+
+.header {
+  background: #007BFF;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
