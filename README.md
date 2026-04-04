@@ -1,48 +1,31 @@
-# Nayana Sajeev's Portfolio
+# Nayana Sajeev | Test Automation Engineer
 
-## About
-Nayana Sajeev is a Test Engineer with over 3 years of experience in quality assurance and automation testing. Passionate about delivering high-quality software, Nayana specializes in developing automated test scripts and ensuring robust software performance.
+Welcome to my professional portfolio! [cite_start]I am a Detail-oriented Test Engineer based in Bangalore, India, with 3+ years of experience in designing and developing robust UI and API automation frameworks[cite: 1].
 
-## Key Highlights
-- **100+ Automated Test Scripts:** Developed a comprehensive suite of automated tests to improve software reliability and reduce manual testing efforts.
-- **3+ Years of Experience:** Demonstrated successful project delivery in fast-paced environments with a focus on quality.
-- **Technical Stack:**
-  - **Languages:** Java, Python
-  - **Tools:** Selenium, JUnit, TestNG, Git, Jenkins, JIRA
+## 🚀 About Me
+[cite_start]I specialize in building scalable automation solutions that improve test execution efficiency and enable continuous delivery in Agile environments[cite: 1]. [cite_start]My background includes a Master of Science in Computer Science and a track record of reducing flaky tests by 30% through rigorous code quality reviews[cite: 1].
 
-## Experience
-### Test Engineer at Testing Mavens
-- Developed automated tests for various web applications, identifying and resolving bugs swiftly.
-- Worked closely with developers to improve application design and ensure high-quality releases.
-- Led the automation testing effort to enhance scalability and performance of the web application.
-- Collaborated with cross-functional teams to define test strategies and best practices.
-### Associate Test Engineer at Testing Mavens
-- Contributed to the testing of financial applications, ensuring compliance with industry standards and client requirements.
-- Engaged in regular code reviews and provided constructive feedback to improve team performance.
+## 🛠️ Technical Stack
+* [cite_start]**UI Automation:** Playwright, WebdriverIO [cite: 1]
+* [cite_start]**Languages:** JavaScript [cite: 1]
+* [cite_start]**Framework Patterns:** Page Object Model (POM), Data-Driven Testing [cite: 1]
+* [cite_start]**API Testing:** Postman, REST API Fundamentals [cite: 1]
+* [cite_start]**CI/CD & DevOps:** GitHub Actions, Jenkins, Git [cite: 1]
+* [cite_start]**Tools:** JIRA, GitHub, Jasmine [cite: 1]
 
-## Education
-- Bachelor of Technology in Computer Science
+## 📈 Professional Highlights
+* [cite_start]**Framework Architecture:** Designed and implemented scalable UI automation frameworks using Playwright and WebdriverIO[cite: 1].
+* [cite_start]**CI/CD Integration:** Integrated automated test suites into pipelines using GitHub Actions and Jenkins for faster feedback cycles[cite: 1].
+* [cite_start]**Project Leadership:** Led automation efforts for major projects, including KPMG and Zipari, ensuring high-quality releases[cite: 1].
+* [cite_start]**Efficiency:** Automated key user workflows, significantly reducing manual testing effort and accelerating release cycles[cite: 1].
 
-## Contact Information
-- Email: nayanasajeev@example.com
-- LinkedIn: [https://www.linkedin.com/in/nayana-sajeev-9aba391b7/)
+## 🎓 Education & Certifications
+* **M.Sc. [cite_start]Computer Science** – Barathiar University [cite: 1]
+* **Postman API Fundamentals Student Expert** [cite: 1]
+* [cite_start]**Playwright JS Automation Testing Certification** [cite: 1]
+* [cite_start]**NPTEL Software Testing Certification** [cite: 1]
 
-## Features of the Website
-- Responsive design
-- Interactive user interface
-- Detailed project showcase
-
-## Website Structure
-- Home
-- About
-- Experience
-- Projects
-- Contact
-
-## Getting Started
-1. Clone the repository: `git clone https://github.com/nayanas98/nayanas98.github.io`
-2. Navigate to the project directory: `cd nayanas98.github.io`
-3. Open `index.html` in your browser.
-
-## Deployment Status
-- The website is currently live and can be accessed at [nayanas98.github.io](https://nayanas98.github.io).
+## 📬 Contact
+* [cite_start]**LinkedIn:** [nayana-sajeev-9aba391b7](https://www.linkedin.com/in/nayana-sajeev-9aba391b7) [cite: 1]
+* [cite_start]**Email:** me.nayana.s@gmail.com [cite: 1]
+* [cite_start]**Location:** Bangalore, India [cite: 1]
