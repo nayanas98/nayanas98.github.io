@@ -3,74 +3,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayana Sajeev - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Nayana Sajeev | Test Automation Engineer</title>
+    <style>
+        /* --- CSS STYLING --- */
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --bg-color: #f8fafc;
+            --text-color: #0f172a;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        section {
+            padding: 5rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        .hero h2 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            color: #64748b;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--secondary-color);
+        }
+
+        h3.section-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: var(--text-color);
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        .skill-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .skill-card ul {
+            list-style-type: none;
+        }
+
+        .skill-card li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill-card li::before {
+            content: '✓';
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card h4 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-card p {
+            color: #64748b;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .project-tech {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none; /* Can add a hamburger menu here later */
+            }
+            .hero h1 { font-size: 2.5rem; }
+        }
+    </style>
 </head>
 <body>
+
     <header>
+        <a href="#" class="logo">NS.</a>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="hero">
-            <h1>Nayana Sajeev</h1>
-            <p>Welcome to my professional portfolio.</p>
-        </div>
     </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Full details about Nayana Sajeev's background.</p>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Job Title at Zipari</h3>
-                <p>Details about the role at Zipari.</p>
+
+    <section class="hero" id="about">
+        <h1>Hi, I'm Nayana Sajeev</h1>
+        <h2>Test Automation Engineer</h2>
+        <p>Detail-oriented QA professional with 3+ years of experience designing and developing robust UI and API automation frameworks. I specialize in integrating automated test suites into CI/CD pipelines to enable reliable, continuous delivery.</p>
+        <div style="margin-top: 1.5rem;">
+            <a href="mailto:me.nayana.s@gmail.com" class="btn">Email Me</a>
+            <a href="https://www.linkedin.com/in/nayana-sajeev-9aba391b7" target="_blank" class="btn" style="background-color: #0f172a; margin-left: 10px;">LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h3 class="section-title">Technical Expertise</h3>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>Automation Frameworks</h4>
+                <ul>
+                    <li>Playwright</li>
+                    <li>WebdriverIO</li>
+                    <li>Page Object Model (POM)</li>
+                    <li>Data-Driven Testing</li>
+                </ul>
             </div>
-            <div class="job">
-                <h3>Job Title at KPMG</h3>
-                <p>Details about the role at KPMG.</p>
+            <div class="skill-card">
+                <h4>API & Backend</h4>
+                <ul>
+                    <li>Postman API Testing</li>
+                    <li>REST API Validation</li>
+                    <li>JSON Data Extraction</li>
+                </ul>
             </div>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">Skill 1</div>
-                <div class="skill">Skill 2</div>
-                <div class="skill">Skill 3</div>
-                <div class="skill">Skill 4</div>
+            <div class="skill-card">
+                <h4>DevOps & Tools</h4>
+                <ul>
+                    <li>GitHub Actions (CI/CD)</li>
+                    <li>Jenkins</li>
+                    <li>Git & GitHub</li>
+                    <li>JIRA</li>
+                </ul>
             </div>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
+            <div class="skill-card">
+                <h4>Languages & Web</h4>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>Cross-browser Testing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3 class="section-title">Automation Portfolio</h3>
+        <div class="projects-grid">
             <div class="project-card">
-                <h3>Project 1: Zipari</h3>
-                <p>Description of the Zipari project.</p>
+                <h4>Playwright E2E Framework</h4>
+                <div class="project-tech">Playwright • JavaScript • GitHub Actions</div>
+                <p>Architected a scalable UI automation framework from scratch. Integrated into CI/CD pipelines to run regression suites on every pull request, reducing manual testing time significantly.</p>
+                <a href="https://github.com/nayanas98" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">View on GitHub →</a>
             </div>
             <div class="project-card">
-                <h3>Project 2: KPMG</h3>
-                <p>Description of the KPMG project.</p>
+                <h4>WebdriverIO Regression Suite</h4>
+                <div class="project-tech">WebdriverIO • Jasmine • Jenkins</div>
+                <p>Maintained and optimized an existing automation suite. Implemented dynamic data extraction for Excel and PDF validation, improving overall test coverage and framework stability.</p>
+                <a href="https://github.com/nayanas98" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">View on GitHub →</a>
             </div>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <p>Details about educational qualifications.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: email@example.com</p>
-            <p>Phone: 123-456-7890</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Nayana Sajeev. All rights reserved.</p>
+            <div class="project-card">
+                <h4>API Validation Collection</h4>
+                <div class="project-tech">Postman • JavaScript • JSON</div>
+                <p>Created comprehensive Postman collections to validate REST API responses, data accuracy, and status codes, ensuring backend stability before frontend integration.</p>
+                <a href="https://github.com/nayanas98" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">View on GitHub →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3 style="margin-bottom: 1rem;">Let's Connect</h3>
+        <p>Currently based in Bangalore, India.</p>
+        <p style="margin-top: 1rem;">
+            <a href="mailto:me.nayana.s@gmail.com" style="color: var(--primary-color); text-decoration: none;">me.nayana.s@gmail.com</a> | 
+            +91 9544564320
+        </p>
+        <p style="margin-top: 2rem; font-size: 0.9rem; color: #64748b;">
+            © 2024 Nayana Sajeev. Built for QA.
+        </p>
     </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
