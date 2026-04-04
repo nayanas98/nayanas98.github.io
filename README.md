@@ -14,13 +14,9 @@ Nayana Sajeev is a Test Engineer with over 3 years of experience in quality assu
 ### Test Engineer at Testing Mavens
 - Developed automated tests for various web applications, identifying and resolving bugs swiftly.
 - Worked closely with developers to improve application design and ensure high-quality releases.
-
-## Projects
-### Zipari
 - Led the automation testing effort to enhance scalability and performance of the web application.
 - Collaborated with cross-functional teams to define test strategies and best practices.
-
-### KPMG
+### Associate Test Engineer at Testing Mavens
 - Contributed to the testing of financial applications, ensuring compliance with industry standards and client requirements.
 - Engaged in regular code reviews and provided constructive feedback to improve team performance.
 
@@ -29,7 +25,7 @@ Nayana Sajeev is a Test Engineer with over 3 years of experience in quality assu
 
 ## Contact Information
 - Email: nayanasajeev@example.com
-- LinkedIn: [linkedin.com/in/nayanasajeev](https://linkedin.com/in/nayanasajeev)
+- LinkedIn: [https://www.linkedin.com/in/nayana-sajeev-9aba391b7/)
 
 ## Features of the Website
 - Responsive design
