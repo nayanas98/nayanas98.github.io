@@ -9,7 +9,7 @@ Detail-oriented **Test Automation Engineer** with **3+ years of experience** des
 ## 🛠️ Technical Skills
 * **Automation Tools:** Playwright, WebdriverIO, Jasmine.
 * **Languages:** JavaScript.
-* **API Testing:** Postman (Fundamentals), REST API, JSON validation.
+* **API Testing (Basic):** Postman (Fundamentals), REST API, JSON validation.
 * **Framework Patterns:** Page Object Model (POM), Data-Driven Testing.
 * **DevOps & CI/CD:** GitHub Actions, Jenkins, Git/GitHub.
 * **Process:** Agile/Scrum, JIRA, Bug Reporting, Regression & Smoke Testing.
