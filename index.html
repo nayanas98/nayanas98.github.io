@@ -3,86 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayana | Test Automation Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Nayana Sajeev | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1>Nayana Sajeev</h1>
-            <p class="subtitle">Test Automation Engineer</p>
-            <div class="header-tags">
-                <span><i class="fab fa-js"></i> Playwright</span>
-                <span><i class="fas fa-vial"></i> WebdriverIO</span>
-                <span><i class="fas fa-code-branch"></i> CI/CD</span>
-            </div>
-            
-            <div class="cta-group">
-                <a href="NayanaSajeevResumeBnglr.docx" class="btn btn-primary" download>
-                    <i class="fas fa-download"></i> Download Resume
-                </a>
-                <div class="social-links">
-                    <a href="https://github.com/nayanas98" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/nayana-sajeev-9aba391b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
+    <nav class="sidebar">
+        <div class="profile-info">
+            <div class="initials">NS</div>
+            <h2>Nayana Sajeev</h2>
+            <p>Automation Engineer</p>
         </div>
-    </header>
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills"><i class="fas fa-cog"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <a href="https://github.com/nayanas98" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nayana-sajeev-9aba391b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </nav>
 
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fas fa-robot"></i>
-                    <h3>Automation</h3>
-                    <p>Playwright, WebdriverIO, POM, Jasmine, Cross-browser Testing</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-server"></i>
-                    <h3>Infrastructure</h3>
-                    <p>GitHub Actions, Jenkins, CI/CD Pipelines, Git</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-cloud"></i>
-                    <h3>Basics</h3>
-                    <p>Postman, REST API Fundamentals, JSON Validation</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main class="content">
+        <section id="home" class="hero">
+            <h1>Test Automation Specialist</h1>
+            <p>Building robust, scalable testing solutions with Playwright & WebdriverIO.</p>
+            <a href="NayanaSajeevResumeBnglr.docx" class="btn-main" download>Download CV</a>
+        </section>
 
-    <section id="projects" class="bg-alt">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <div class="project-info">
-                        <h3>Playwright E2E Framework</h3>
-                        <p>Architected a scalable automation framework with parallel execution and integrated reporting for the KPMG project.</p>
-                        <a href="https://github.com/nayanas98/playwright-framework" target="_blank">View Repository →</a>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h3>WebdriverIO Regression Suite</h3>
-                        <p>Optimized UI automation for Zipari healthcare modules, reducing regression time by 30% through dynamic data extraction.</p>
-                        <a href="https://github.com/nayanas98" target="_blank">View Repository →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section id="about">
+            <h2 class="title">About Me</h2>
+            <p>I am a detail-oriented Test Engineer with 3+ years of experience. I specialize in designing automation frameworks that bridge the gap between development and high-quality releases.</p>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>Ready to collaborate? Reach out at <a href="mailto:me.nayana.s@gmail.com">me.nayana.s@gmail.com</a></p>
-            <p class="copyright">© 2024 | Bangalore, India</p>
-        </div>
-    </footer>
+        <section id="skills">
+            <h2 class="title">Technical Stack</h2>
+            <div class="skills-container">
+                <div class="skill-box"><span>Playwright</span></div>
+                <div class="skill-box"><span>WebdriverIO</span></div>
+                <div class="skill-box"><span>JavaScript</span></div>
+                <div class="skill-box"><span>GitHub Actions</span></div>
+                <div class="skill-box"><span>Postman (Basics)</span></div>
+                <div class="skill-box"><span>Jenkins</span></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="title">Projects</h2>
+            <div class="project-card">
+                <h3>E2E Playwright Framework</h3>
+                <p>Advanced framework using POM and parallel execution for enterprise-scale web applications.</p>
+                <a href="https://github.com/nayanas98" target="_blank">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>API Validation Suite</h3>
+                <p>Automated REST API checks focusing on status codes and JSON schema validation.</p>
+                <a href="https://github.com/nayanas98" target="_blank">View Code</a>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:me.nayana.s@gmail.com">me.nayana.s@gmail.com</a></p>
+            <p>Location: Bangalore, India</p>
+        </footer>
+    </main>
 
 </body>
 </html>
