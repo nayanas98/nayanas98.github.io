@@ -1,53 +1,36 @@
-# Nayana Sajeev | Test Automation Engineer
-**Bangalore, India** | [LinkedIn](https://www.linkedin.com/in/nayana-sajeev-9aba391b7) | [Email](mailto:me.nayana.s@gmail.com)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 🚀 Professional Summary
-Detail-oriented **Test Automation Engineer** with **3+ years of experience** designing and developing robust UI automation frameworks. Expert in integrating automated test suites into **CI/CD pipelines** using GitHub Actions to enable reliable continuous delivery in Agile environments. Proven track record of improving test coverage and reducing flaky tests by **30%**.
+## Getting Started
 
----
+First, run the development server:
 
-## 🛠️ Technical Skills
-* **Automation Tools:** Playwright, WebdriverIO, Jasmine.
-* **Languages:** JavaScript.
-* **API Testing:** Postman (Fundamentals), REST API, JSON validation.
-* **Framework Patterns:** Page Object Model (POM), Data-Driven Testing.
-* **DevOps & CI/CD:** GitHub Actions, Jenkins, Git/GitHub.
-* **Process:** Agile/Scrum, JIRA, Bug Reporting, Regression & Smoke Testing.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 💼 Core Experience
-### **Testing Mavens** | Test Engineer
-*Kochi, India* | *Feb 2024 – Current*
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-* **Framework Development:** Designed and implemented scalable UI frameworks using **Playwright** and **JavaScript**.
-* **CI/CD Optimization:** Integrated test suites into **GitHub Actions** and **Jenkins**, enabling faster feedback cycles.
-* **Major Projects:** Led automation efforts for high-profile projects, including **KPMG**.
-* **Efficiency Gains:** Facilitated code quality reviews and enforced automation best practices, reducing flaky tests by **30%**.
-* **Mentorship:** Mentored junior QA engineers on automation framework usage and testing standards.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### **Testing Mavens** | Associate Test Engineer
-*Kochi, India* | *Sept 2022 – Jan 2024*
+## Learn More
 
-* **WebdriverIO:** Built and maintained a robust UI automation framework using **WebdriverIO** and **Jasmine**.
-* **API Validation:** Executed API testing using **Postman** to validate REST API responses and JSON data accuracy.
-* **Data-Driven Testing:** Implemented validation for Excel and PDF files using dynamic data extraction.
-* **Agile Integration:** Collaborated in Agile/Scrum ceremonies to integrate testing early in the development lifecycle for the **Zipari** project.
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🎓 Education
-* **Master of Science (M.Sc.): Computer Science** | Barathiar University
-* **Bachelor of Science (B.Sc.): Computer Science** | Barathiar University
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-## 📜 Certifications
-* **Postman API Fundamentals Student Expert**
-* **Playwright JS Automation Testing from Scratch**
-* **Software Testing (NPTEL)**
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-### 💡 Why hire me?
-I focus on building **maintainable and scalable frameworks** that help teams ship software faster. I am passionate about **Requirement Analysis**, **Problem Solving**, and ensuring high software delivery quality in fast-paced environments.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
